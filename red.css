@@ -1,0 +1,9 @@
+body {
+    background-color:lightgoldenrodyellow;
+}
+.red {
+    border:2px solid blue;
+    width:30%;
+    position: absolute;
+    right:34%;
+}
