@@ -1,9 +1,16 @@
 body {
-    background-color:red;
+    background-color:lightcoral;
 }
-.red {
-    border:2px solid blue;
-    width:30%;
+#red {
+color: aqua;
+border: 2px solid blueviolet;
+margin-left: 25%;
+margin-right: 25%;
+text-align: center;
+}
+.cake {
+    border: 2px solid blueviolet;
+    border-radius: 50%;
     position: absolute;
-    right:34%;
+    right:35%;
 }
