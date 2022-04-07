@@ -1,1 +1,3 @@
-alert("HAPPY BIRTHDAY DADDY!");
+function myAlert() {
+alert("Click OK to see your present \n ????");
+}

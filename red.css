@@ -1,5 +1,11 @@
 body {
     background-color: firebrick;
-    border: 2px solid cadetblue;
+    
     color:ivory;
+}
+#gift {
+    border:2px solid cadetblue;
+}
+h1 {
+    border: 2px solid cadetblue; 
 }
