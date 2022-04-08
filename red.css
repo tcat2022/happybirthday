@@ -1,11 +1,11 @@
 body {
     background-color: firebrick;
     
-    color:ivory;
+    color:lightgoldenrodyellow;
 }
 #gift {
-    border:2px solid cadetblue;
+    border:4px solid lightgreen;
 }
 h1 {
-    border: 2px solid cadetblue; 
+    border: 2px solid lightgreen; 
 }
