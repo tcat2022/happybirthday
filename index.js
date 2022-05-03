@@ -75,30 +75,30 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: "Who invented JavaScript?",
+        question: "what line of code starts every website?",
         answers: {
-          a: "Douglas Crockford",
-          b: "Sheryl Sandberg",
-          c: "Brendan Eich"
+          a: "!DOCTYPE html",
+          b: "body",
+          c: "html"
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "what code aligns an object to the center in html?",
+        answers: {
+          a: "position:center;",
+          b: "move to center",
+          c: "align=center"
         },
         correctAnswer: "c"
       },
       {
-        question: "Which one of these is a JavaScript package manager?",
+        question: "how do you make a comment in javascript",
         answers: {
-          a: "Node.js",
-          b: "TypeScript",
-          c: "npm"
-        },
-        correctAnswer: "c"
-      },
-      {
-        question: "Which tool can you use to ensure code quality?",
-        answers: {
-          a: "Angular",
-          b: "jQuery",
-          c: "RequireJS",
-          d: "ESLint"
+          a: "g",
+          b: "comment=g",
+          c: "/g/",
+          d: "/*g*/"
         },
         correctAnswer: "d"
       }
