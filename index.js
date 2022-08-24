@@ -3,7 +3,7 @@ const btn = document.querySelector('.talk');
 function speak(sentence) {
   const text_speak = new SpeechSynthesisUtterance(sentence);
 
-  text_speak.rate = 1
+  text_speak.rate = .8;
   text_speak.pitch = 1;
 
   window.speechSynthesis.speak(text_speak)
@@ -25,7 +25,7 @@ function wishMe() {
   }
 }
 
-document.body.addEventListener('load', ()=>{
-  speak("hello i am vrcat");
+window.addEventListener('load', ()=>{
+  speak("hello i am v r cat");
   wishMe();
 })
