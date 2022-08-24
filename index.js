@@ -4,7 +4,7 @@ function speak(sentence) {
   const text_speak = new SpeechSynthesisUtterance(sentence);
 
   text_speak.rate = .8;
-  text_speak.pitch = 1;
+  text_speak.pitch = 1.5;
 
   window.speechSynthesis.speak(text_speak)
 }
@@ -19,7 +19,6 @@ function wishMe() {
   else if(hr > 0 && hr <= 17) {
     speak("good afternoon")
   }
-  
  else  {
     speak("good evening")
   }
@@ -27,5 +26,6 @@ function wishMe() {
 
 window.addEventListener('load', ()=>{
   speak("hello i am v r cat");
+  speak("your virtual assistant");
   wishMe();
 })
