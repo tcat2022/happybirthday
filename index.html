@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="red.css">
     <title>vrcat</title>
 </head>
-<body>
+<body onload="ask()">
    <section class="main">
     <div class="input">
-        <button class="talk">🎙️</button>
+        <button class="talk" onclick="show()">🎙️ <p id="content"></p></button>
     </div>
    </section> 
    <script src="index.js"></script>

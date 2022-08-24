@@ -11,3 +11,6 @@ body{
 	background: lightskyblue;
 	border: 7px dashed darkgoldenrod;
 }
+#content{
+	display: none;
+}
